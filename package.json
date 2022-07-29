@@ -1,0 +1,21 @@
+{
+  "name": "ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "preshow:coverage": "npm run coverage",
+    "start": "live-server"       
+  },
+  "author": "vladim",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "live-server": "^1.2.1" 
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
